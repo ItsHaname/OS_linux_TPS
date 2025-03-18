@@ -1,0 +1,9 @@
+Exercice 1 :
+Écrirez un programme en C qui récupère et affiche des informations
+relatives au processus en cours d'exécution :
+
+✓ PID (Process ID) : Identifiant unique du processus.
+✓ PPID (Parent Process ID) : Identifiant du processus parent.
+✓ UID (User ID) : Identifiant de l'utilisateur propriétaire du
+processus.
+✓ GID (Group ID) : Identifiant du groupe associé au processus.
