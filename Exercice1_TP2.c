@@ -1,20 +1,18 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/types.h>
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/types.h>
 
-int main() {
-    // Récupération des informations du processus
-    pid_t pid = getpid();    // Obtient l'ID du processus
-    pid_t ppid = getppid();  // Obtient l'ID du processus parent
-    uid_t uid = getuid();    // Obtient l'ID de l'utilisateur
-    gid_t gid = getgid();    // Obtient l'ID du groupe
+int main (){
+pid_t  PID =getpid();
+pid_t PPID=getppid();
+uid_t UID=getuid();
+uid_t GID=getgid();
 
-    // Affichage des informations
-    printf("Informations du processus en cours :\n");
-    printf("📌 PID  : %d\n", pid);
-    printf("📌 PPID : %d\n", ppid);
-    printf("👤 UID  : %d\n", uid);
-    printf("👥 GID  : %d\n", gid);
+printf("Identifiant unique du processus est %d\n",PID );
+printf("Identifiant du processus parent %d\n",PPID);
+printf("Identifiant de l'utilisateur propriétaire du processus %d\n",UID);
+printf("Identifiant du groupe associé au processus %d\n ",GID);
 
-    return 0;
+return 0; 
 }
+
