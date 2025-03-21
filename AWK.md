@@ -376,7 +376,7 @@ David 80
 <h3>5.1 Recherche par Motifs (Regex) 🧩</h3>
 <p>Syntaxe : <code>awk '/<motif>/' fichier</code></p>
 <p><b>Exemple :</b></p>
-<pre><code>awk '/Hamza/' fichier.txt</code></pre>
+<pre><code>awk '/Hanane/' fichier.txt</code></pre>
 <p>Résultat : Sélectionne toutes les lignes où le mot "Hamza" apparaît.</p>
 
 <h3>5.2 Filtrage avec Conditions ⚙️</h3>
