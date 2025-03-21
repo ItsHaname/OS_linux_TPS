@@ -377,7 +377,7 @@ David 80
 <p>Syntaxe : <code>awk '/<motif>/' fichier</code></p>
 <p><b>Exemple :</b></p>
 <pre><code>awk '/Hanane/' fichier.txt</code></pre>
-<p>Résultat : Sélectionne toutes les lignes où le mot "Hamza" apparaît.</p>
+<p>Résultat : Sélectionne toutes les lignes où le mot "Hanane" apparaît.</p>
 
 <h3>5.2 Filtrage avec Conditions ⚙️</h3>
 <p>Syntaxe : <code>awk '$1 ~ /[A-Z]/ && $3 > 50 {print $0}' fichier.txt</code></p>
