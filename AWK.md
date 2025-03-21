@@ -133,13 +133,13 @@ En AWK, les comparaisons servent à vérifier des conditions dans les données �
     <tr>
         <td><b>Égalité</b></td>
         <td>==</td>
-        <td>$1 == "Hanane"</td>
+        <td> $1 == "Hanane"</td>
         <td>Vrai si le champ 1 est <b>"Hanane"</b> 👩</td>
     </tr>
     <tr>
         <td><b>Différence</b></td>
         <td>!=</td>
-        <td>$3 != 0</td>
+        <td> $3 != 0 </td>
         <td>Vrai si le champ 3 <b>n'est pas 0</b> 🔢❌</td>
     </tr>
     <tr>
