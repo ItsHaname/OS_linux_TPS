@@ -31,15 +31,15 @@ Charlie:35:2000:Teacher
 Diana:28:1800:Designer
 Eve:40:2500:Manager
 ```
-Affichez uniquement la première colonne de chaque ligne.
+1)-Affichez uniquement la première colonne de chaque ligne.
 
-Affichez la première et la dernière colonne.
+2)-Affichez la première et la dernière colonne.
 
-Affichez toutes les lignes contenant "Bob".
+3)-Affichez toutes les lignes contenant "Bob".
 
-Affichez chaque ligne suivie du nombre total de champs.
+4)-Affichez chaque ligne suivie du nombre total de champs.
 
-Calculez la somme des valeurs de la troisième colonne.
+5)-Calculez la somme des valeurs de la troisième colonne.
 
 <h1>Exercice 4 : Options avancées de AWK</h1>
 Utilisez l'option -Fpour définir :comme séparateur et afficher la première colonne de fichier.txt.
