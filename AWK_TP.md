@@ -8,12 +8,12 @@ Voici le fichier `fichier.txt` que tu vas utiliser dans plusieurs exercices. Il 
 
 ```
 ID      Nom     Date       Action  Montant
-1    Alice   2025-01-01 Login   0
-2    Bob     2025-01-02 Logout  10
-3    Charlie 2025-01-03 Login   20
-4    Alice   2025-01-04 Logout  30
-5    Bob     2025-01-05 Login   40
-6    Charlie 2025-01-06 Logout  50
+1    Alice   2025-01-01 Login       0
+2    Bob     2025-01-02 Logout     10
+3    Charlie 2025-01-03 Login      20
+4    Alice   2025-01-04 Logout     30
+5    Bob     2025-01-05 Login      40
+6    Charlie 2025-01-06 Logout    50
 ```
 
 ---
