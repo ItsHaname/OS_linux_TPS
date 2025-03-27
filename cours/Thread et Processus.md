@@ -332,8 +332,11 @@ ps aux | less
 La commande ps est essentielle pour gérer les processus sur ton système. Elle te permet de :
 
 ✅ Voir quels processus sont en cours d'exécution.
+
 ✅ Obtenir des informations détaillées sur les processus.
+
 ✅ Filtrer et trier les résultats pour mieux comprendre ce qui se passe sur ton système
+
 - La pile est utilisée pour des données temporaires et locales à chaque thread, et est donc limitée.
 - Le tas est utilisé pour les données dynamiques et partagées entre les threads, ce qui nécessite une synchronisation pour éviter les erreurs.
 
