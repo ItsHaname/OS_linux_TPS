@@ -232,10 +232,6 @@ Deux parties de la mémoire sont particulièrement importantes : la **pile** et 
 
 ---
 
-## 🚀 Conclusion
-
-Les options permettent de personnaliser ce que tu veux afficher. Par exemple, tu peux afficher tous les processus, filtrer par utilisateur ou les afficher sous forme d'arbre.
-
 ---
 # 📌 La commande `ps` - Afficher les processus en cours  
 
@@ -340,7 +336,9 @@ La commande ps est essentielle pour gérer les processus sur ton système. Elle 
 - La pile est utilisée pour des données temporaires et locales à chaque thread, et est donc limitée.
 - Le tas est utilisé pour les données dynamiques et partagées entre les threads, ce qui nécessite une synchronisation pour éviter les erreurs.
 
+## 🚀 Conclusion
 
+Les options permettent de personnaliser ce que tu veux afficher. Par exemple, tu peux afficher tous les processus, filtrer par utilisateur ou les afficher sous forme d'arbre.
 
 
 
