@@ -195,6 +195,8 @@ Lorsqu’un programme s’exécute, il utilise de la mémoire qui est organisée
   - Tous les threads d’un processus partagent cette mémoire (sauf la pile de chaque thread).
 
 ---
+![Screenshot](https://github.com/user-attachments/assets/f0ad3f96-dbd2-4e4f-982d-7933340b446f)
+--
 
 ## 📂 Mémoire d'un Processus : Tas et Pile
 
@@ -211,6 +213,7 @@ Deux parties de la mémoire sont particulièrement importantes : la **pile** et 
 - **Fonctionnement** :
   - La pile est organisée de façon à ce que les données les plus récentes soient ajoutées en haut.
   - **SP (Stack Pointer)** : C’est un pointeur qui garde l'adresse du sommet de la pile (l’endroit où la prochaine donnée sera ajoutée ou retirée).
+  
 
 ### 📦 Le Tas (Heap)
 
