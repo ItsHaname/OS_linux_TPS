@@ -1,4 +1,7 @@
-<h1 align="center" style="font-family: 'Arial', sans-serif; color: #4CAF50;">🚀 Operating System 2 - Practical Exercises on Process Creation</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=%F0%9F%9A%80+Operating+System" alt="Typing SVG" />
+</p>
+
 
 <h2 style="font-family: 'Arial', sans-serif; color: #333;">📌 Overview</h2>
 <p style="font-family: 'Arial', sans-serif; font-size: 1.1em;">Welcome to this repository! 🎉 Here you will find a collection of <strong>practical exercises on process creation in operating systems</strong>, designed to help you understand and practice the fundamental concepts of processes under Linux.</p>
