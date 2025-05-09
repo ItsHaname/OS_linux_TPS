@@ -195,6 +195,8 @@ Lorsqu’un programme s’exécute, il utilise de la mémoire qui est organisée
   - Tous les threads d’un processus partagent cette mémoire (sauf la pile de chaque thread).
 
 ---
+![Screenshot](https://github.com/user-attachments/assets/f0ad3f96-dbd2-4e4f-982d-7933340b446f)
+--
 
 ## 📂 Mémoire d'un Processus : Tas et Pile
 
@@ -211,6 +213,7 @@ Deux parties de la mémoire sont particulièrement importantes : la **pile** et 
 - **Fonctionnement** :
   - La pile est organisée de façon à ce que les données les plus récentes soient ajoutées en haut.
   - **SP (Stack Pointer)** : C’est un pointeur qui garde l'adresse du sommet de la pile (l’endroit où la prochaine donnée sera ajoutée ou retirée).
+  
 
 ### 📦 Le Tas (Heap)
 
@@ -231,10 +234,6 @@ Deux parties de la mémoire sont particulièrement importantes : la **pile** et 
 | **Accès concurrent**     | Aucun problème d’accès (chaque thread a sa propre pile). | Nécessite une synchronisation pour éviter des problèmes de race. |
 
 ---
-
-## 🚀 Conclusion
-
-Les options permettent de personnaliser ce que tu veux afficher. Par exemple, tu peux afficher tous les processus, filtrer par utilisateur ou les afficher sous forme d'arbre.
 
 ---
 # 📌 La commande `ps` - Afficher les processus en cours  
@@ -332,12 +331,17 @@ ps aux | less
 La commande ps est essentielle pour gérer les processus sur ton système. Elle te permet de :
 
 ✅ Voir quels processus sont en cours d'exécution.
+
 ✅ Obtenir des informations détaillées sur les processus.
+
 ✅ Filtrer et trier les résultats pour mieux comprendre ce qui se passe sur ton système
+
 - La pile est utilisée pour des données temporaires et locales à chaque thread, et est donc limitée.
 - Le tas est utilisé pour les données dynamiques et partagées entre les threads, ce qui nécessite une synchronisation pour éviter les erreurs.
 
+## 🚀 Conclusion
 
+Les options permettent de personnaliser ce que tu veux afficher. Par exemple, tu peux afficher tous les processus, filtrer par utilisateur ou les afficher sous forme d'arbre.
 
 
 
