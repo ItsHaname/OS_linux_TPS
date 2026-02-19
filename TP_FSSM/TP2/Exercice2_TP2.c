@@ -4,11 +4,15 @@
  int main (){
 pid_t PID =fork();
 if (PID==0){
+ printf ("je suis le pere avant sleep);
  printf("je suis le processus enfant mon id est %d et user id est %d et ;e groupe id est %d",getpid(),getuid(),getgid());
+ sleep(10);
+ printf ("je suis le prer apres le sleep"):
 }else if(PID>0){
 
 printf("je suis le processus parent mon id est %d et user id est %d et groupe id est %d et le processus fils id est %d",getppid(),getuid(),getgid(),getpid());
 } else{
+ 
 
  printf("ERREUR FORK !!!");
 return -1;
